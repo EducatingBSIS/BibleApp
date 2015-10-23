@@ -1,0 +1,217 @@
+<html>
+<head>
+<title>MyFirstBootstrap</title>
+<link rel="stylesheet" type="text/css" href="bootstrap_v3/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap_v3/css/grid.css">
+<style>
+	.container{
+		font-family: arial;
+	}
+	.td1{
+		color: red;
+	}
+	.td2{
+		color: red;
+	}
+	.td3{
+		color: red;
+	}
+	.td4{
+		color: red;
+	}
+	.td5{
+		color: red;
+	}
+	.td6{
+		color: red;
+	}
+	.td7{
+		color: red;
+	}
+	.td8{
+		color: red;
+	}
+	.td9{
+		color: red;
+	}
+	.td10{
+		color: gray;
+	}
+	.td11{
+		color: gray;
+	}
+	.td12{
+		color: gray;
+	}
+	.td13{
+		color: gray;
+	}
+	.td14{
+		color: gray;
+	}
+	.td15{
+		color: gray;
+	}
+	.td16{
+		color: gray;
+	}
+	.td17{
+		color: gray;
+	}
+	.td18{
+		color: gray;
+	}
+	.p1{
+		text-decoration: underline;
+		text-align: center;
+		color: darkgreen;
+		padding: 5px;
+		font-size: 20px;		
+	}
+	
+
+	
+</style>
+</head>
+<body>
+<div class = "container">
+<img src = "bible-pic3.jpg" alt = "jowin.com" width = "450" height = "150">
+<div class = "row">
+<div class = "col-md-5">
+<div role="tabpanel">
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#old" aria-controls="home" role="tab" data-toggle="tab">Old Testament</a></li>
+<li role="presentation"><a href="#new" aria-controls="profile" role="tab" data-toggle="tab">New Testament</a></li>
+<p class = "p1">Bible Research</p>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane fade in active" id="old">
+<table class="table table-striped">
+<tr>
+<td class = "td1">Genesis</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td2">Exodus</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td3">Leviticus</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td4">Genesis</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td5">Exodus</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td6">Leviticus</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td7">Genesis</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td8">Exodus</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+<tr>
+<td class = "td9">Leviticus</td>
+<td><button type = "button" class = "btn btn-info">Read</button></td>
+<td><button type = "button" class = "btn btn-info">Info</button></td>
+<td><button type = "button" class = "btn btn-info">Watch</button></td>
+</tr>
+</table>
+</div>
+
+
+<div role="tabpanel" class="tab-pane fade" id="new">
+<table class="table table-striped">
+<tr>
+<td class = "td10">Matthew</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td11">Acts</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td12">Acts</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td13">Matthew</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td14">Acts</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td15">Acts</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td16">Matthew</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td17">Acts</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+<tr>
+<td class = "td18">Acts</td>
+<td><button type="button" class="btn btn-primary">Read</button></td>
+<td><button type="button" class="btn btn-primary">Info</button></td>
+<td><button type="button" class="btn btn-primary">Watch</button></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="col-md-8">content</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src = "jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="bootstrap_v3/js/bootstrap.js"></script>
+</body>
+</html>
+
